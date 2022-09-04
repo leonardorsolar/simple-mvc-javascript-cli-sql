@@ -1,0 +1,34 @@
+{
+  "name": "mvc-database",
+  "version": "0.0.1",
+  "description": "Projeto mvc para apresentar para a turma da faculdade sobre o funcionamento do banco de dados MySQL",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest",
+    "start":"node ./views/userView.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ALESSANDROLMENEZES/MVC-SQL-LIVE.git"
+  },
+  "keywords": [
+    "MySQL",
+    "MVC",
+    "database",
+    "BD",
+    "Banco-de-dados"
+  ],
+  "author": "Alessandro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ALESSANDROLMENEZES/MVC-SQL-LIVE/issues"
+  },
+  "homepage": "https://github.com/ALESSANDROLMENEZES/MVC-SQL-LIVE#readme",
+  "devDependencies": {
+    "jest": "^26.4.2"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "mysql2": "^2.1.0"
+  }
+}
